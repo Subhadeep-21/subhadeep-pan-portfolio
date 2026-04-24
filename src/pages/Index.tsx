@@ -275,7 +275,7 @@ const Index = () => {
 
           <div className="mt-10">
             <Button asChild size="lg" variant="secondary" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
-              <a href="https://drive.google.com/uc?export=download&id=16s1AvL0F1RSp39ATYyIGpr4CODUKZVzm" target="_blank" rel="noreferrer">
+              <a href="https://drive.google.com/file/d/16s1AvL0F1RSp39ATYyIGpr4CODUKZVzm/view?usp=drive_link" target="_blank" rel="noreferrer">
                 <Download className="mr-2 h-4 w-4" /> Download Resume
               </a>
             </Button>
