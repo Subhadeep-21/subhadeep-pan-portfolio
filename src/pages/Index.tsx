@@ -12,7 +12,7 @@ const projects = [
       "SQL reconciliation logic delivered 99.2% report-data consistency and surfaced 640 mismatched records.",
       "4-page Power BI dashboards enabled 52% faster tracking of 180+ overdue cases and 75 policy breaches across 7 regions.",
     ],
-    href: "https://github.com/subhadeep-pan",
+    href: "https://github.com/Subhadeep-21/DA_Projects/tree/main/regulatory-mis-compliance-reporting-system",
   },
   {
     title: "AML Transaction Monitoring System",
