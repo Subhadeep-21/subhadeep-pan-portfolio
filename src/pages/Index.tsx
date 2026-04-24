@@ -117,7 +117,7 @@ const Index = () => {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-              <a href="https://drive.google.com/uc?export=download&id=16s1AvL0F1RSp39ATYyIGpr4CODUKZVzm" target="_blank" rel="noreferrer">
+              <a href="#" download>
                 <Download className="mr-2 h-4 w-4" /> Download Resume
               </a>
             </Button>
@@ -275,7 +275,7 @@ const Index = () => {
 
           <div className="mt-10">
             <Button asChild size="lg" variant="secondary" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
-              <a href="https://drive.google.com/uc?export=download&id=16s1AvL0F1RSp39ATYyIGpr4CODUKZVzm" target="_blank" rel="noreferrer">
+              <a href="#" download>
                 <Download className="mr-2 h-4 w-4" /> Download Resume
               </a>
             </Button>
