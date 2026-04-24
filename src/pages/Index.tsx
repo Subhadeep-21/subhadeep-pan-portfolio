@@ -167,7 +167,7 @@ const Index = () => {
                     <p className="mt-1 text-xs font-medium uppercase tracking-wider text-muted-foreground">{p.subtitle}</p>
                   </div>
                   <a
-                    href={p.href}
+                    href="https://github.com/Subhadeep-21/DA_Projects/tree/main/regulatory-mis-compliance-reporting-system"
                     target="_blank"
                     rel="noreferrer"
                     aria-label={`${p.title} on GitHub`}
