@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Subhadeep Pan — Portfolio</title>
+    <script>
+      // GitHub Pages SPA redirect: preserve the path and forward to index.html under the base.
+      (function () {
+        var base = "/subhadeep-pan-portfolio/";
+        var path = window.location.pathname;
+        var rest = path.indexOf(base) === 0 ? path.slice(base.length) : path.replace(/^\//, "");
+        var target = base + "?p=/" + rest + window.location.search.replace(/^\?/, "&") + window.location.hash;
+        window.location.replace(target);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
