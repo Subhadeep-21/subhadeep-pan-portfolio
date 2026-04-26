@@ -102,18 +102,14 @@ const Index = () => {
         <div className="container-tight">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-secondary px-3 py-1 text-xs font-medium text-muted-foreground">
             <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-            Available for analyst roles
+            Available for Analyst roles
           </div>
           <h1 className="max-w-4xl text-4xl font-bold leading-tight text-primary md:text-6xl">
             Subhadeep Pan
-            <span className="block text-muted-foreground">Aspiring Data Analyst</span>
+            <span className="block text-muted-foreground">Aspiring Business Operations & Data Analyst</span>
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            MCA graduate with hands-on experience delivering analytics solutions across finance, banking, sales, and HR domains.
-            I apply SQL and Python to clean, validate, reconcile, and analyze datasets of up to 80,000+ records — improving
-            reporting accuracy, control monitoring, and business decisions. I build Power BI, Tableau, and Excel dashboards
-            that have reduced manual reporting effort by up to 58% and accelerated management reviews. Strong interest in
-            supporting risk, regulatory, and advisory engagements through data-driven solutions.
+           I’ve always been drawn to how things work behind the scenes—how data becomes decisions, how processes create growth, and how small improvements can make a big impact. That curiosity shaped my journey from Computer Science studies to real-world business operations and analytics. My professional experience began in a fast-paced regional enterprise, where I took ownership of sales records, invoicing, inventory, customer support, finance coordination, and supply operations. Managing hundreds of transactions, solving daily challenges, and improving workflows taught me that accuracy, speed, and adaptability are the backbone of every successful business. Alongside this hands-on experience, I built strong technical skills in SQL, Power BI, MS Excel, and data analysis. From analyzing 25,000+ customer records to uncovering retention opportunities, I enjoy turning raw information into actionable insights that drive smarter decisions. Today, I am focused on building a career at the intersection of operations, analytics, and business growth. I bring a combination of structured thinking, ownership mindset, and continuous learning to every challenge I take on. I’m not just looking for a role—I’m looking for opportunities where I can create measurable impact, solve real problems, and grow with ambitious teams.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
