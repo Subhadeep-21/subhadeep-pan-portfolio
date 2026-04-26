@@ -111,10 +111,10 @@ const Index = () => {
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
            I’ve always been drawn to how things work behind the scenes—how data becomes decisions, how processes create growth, and how small improvements can make a big impact. That curiosity shaped my journey from Computer Science studies to real-world business operations and analytics. 
-           <br />My professional experience began in a fast-paced regional enterprise, where I took ownership of sales records, invoicing, inventory, customer support, finance coordination, and supply operations. Managing hundreds of transactions, solving daily challenges, and improving workflows taught me that accuracy, speed, and adaptability are the backbone of every successful business. 
+          <\n>My professional experience began in a fast-paced regional enterprise, where I took ownership of sales records, invoicing, inventory, customer support, finance coordination, and supply operations. Managing hundreds of transactions, solving daily challenges, and improving workflows taught me that accuracy, speed, and adaptability are the backbone of every successful business. 
            Alongside this hands-on experience, I built strong technical skills in SQL, Power BI, MS Excel, and data analysis. From analyzing 25,000+ customer records to uncovering retention opportunities, I enjoy turning raw information into actionable insights that drive smarter decisions. 
-           Today, I am focused on building a career at the intersection of operations, analytics, and business growth. I bring a combination of structured thinking, ownership mindset, and continuous learning to every challenge I take on.
-           I’m not just looking for a role—I’m looking for opportunities where I can create measurable impact, solve real problems, and grow with ambitious teams.
+           <\n>Today, I am focused on building a career at the intersection of operations, analytics, and business growth. I bring a combination of structured thinking, ownership mindset, and continuous learning to every challenge I take on.
+           <\n>I’m not just looking for a role—I’m looking for opportunities where I can create measurable impact, solve real problems, and grow with ambitious teams.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
