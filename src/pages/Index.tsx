@@ -142,6 +142,53 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Experience */}
+      <section id="experience" className="section-pad bg-secondary/40">
+        <div className="container-tight">
+          <div className="mb-12 flex items-end justify-between gap-6">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">Experience</p>
+              <h2 className="mt-2 text-3xl font-bold text-primary md:text-4xl">Where I've worked</h2>
+            </div>
+            <Briefcase className="hidden h-10 w-10 text-primary/30 md:block" />
+          </div>
+
+          <article className="rounded-2xl border border-border bg-card p-7 transition-all hover:border-primary/30 hover:shadow-lg">
+            <div className="flex flex-col gap-4 border-b border-border pb-5 md:flex-row md:items-start md:justify-between">
+              <div>
+                <h3 className="text-lg font-semibold text-primary md:text-xl">Operations & Accounts Intern</h3>
+                <p className="mt-1 text-sm font-medium text-muted-foreground">
+                  Priyadarshini Enterprise · Regional Distribution Business
+                </p>
+                <p className="mt-1 text-xs text-muted-foreground">Durgapur, West Bengal</p>
+              </div>
+              <span className="inline-flex h-fit items-center rounded-full border border-border bg-secondary px-3 py-1 text-xs font-medium text-primary">
+                Dec 2022 — Nov 2024
+              </span>
+            </div>
+            <ul className="mt-5 space-y-2.5 text-sm leading-relaxed text-muted-foreground">
+              {[
+                "Managed 500+ sales records, invoices, and transaction entries with high accuracy, ensuring smooth day-to-day business operations.",
+                "Prepared and reconciled 100+ monthly invoices, supporting timely billing cycles and payment tracking.",
+                "Resolved 20+ customer queries weekly, improving turnaround time and service satisfaction.",
+                "Delivered daily business updates, sales summaries, and operational reports to the owner, enabling faster decision-making.",
+                "Supported finance operations including GST filing coordination, cash reconciliation, and ledger maintenance, strengthening compliance readiness.",
+                "Managed warehouse inventory of 200+ SKUs, monitoring stock levels to minimize shortages and support uninterrupted operations.",
+                "Conducted market demand analysis and recommended supplier diversification beyond Cipla by onboarding Mankind and Oziva, expanding product portfolio and revenue opportunities.",
+                "Coordinated procurement and supply operations across a large regional service area, helping maintain 95%+ on-time deliveries.",
+                "Tracked 50+ monthly inbound shipments, delivery schedules, and inventory movement, reducing delays and improving visibility.",
+                "Reorganized physical and digital documentation systems, reducing retrieval time by 30% and improving operational efficiency.",
+              ].map((b, i) => (
+                <li key={i} className="flex gap-2">
+                  <span className="mt-2 h-1 w-1 flex-shrink-0 rounded-full bg-primary/60" />
+                  <span>{b}</span>
+                </li>
+              ))}
+            </ul>
+          </article>
+        </div>
+      </section>
+
       {/* Projects */}
       <section id="projects" className="section-pad bg-secondary/40">
         <div className="container-tight">
