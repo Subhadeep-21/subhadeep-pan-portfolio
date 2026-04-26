@@ -87,6 +87,7 @@ const Index = () => {
         <div className="container-tight flex h-16 items-center justify-between">
           <a href="#top" className="font-bold tracking-tight text-primary">SP.</a>
           <nav className="hidden gap-8 text-sm font-medium text-muted-foreground md:flex">
+            <a href="#experience" className="transition-colors hover:text-primary">Experience</a>
             <a href="#projects" className="transition-colors hover:text-primary">Projects</a>
             <a href="#skills" className="transition-colors hover:text-primary">Skills</a>
             <a href="#contact" className="transition-colors hover:text-primary">Contact</a>
